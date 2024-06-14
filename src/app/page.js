@@ -146,8 +146,8 @@ export default function Home() {
           Simply paste the video link, and let TL-DW.ai do the rest. In seconds,
           you&apos;ll have a comprehensive summary that allows you to stay
           ahead, save time, and make the most of your viewing experience. Say
-          goodbye to "too long; didn&apos;t watch" and hello to efficient
-          learning and entertainment with TL-DW.ai.
+          goodbye to &quot;too long&ldquo; didn&apos;t watch&quot; and hello to
+          efficient learning and entertainment with TL-DW.ai.
         </p>
       </div>
 
