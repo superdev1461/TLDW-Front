@@ -138,16 +138,16 @@ export default function Home() {
           into concise, informative summaries. Designed for busy individuals who
           want to stay informed without spending hours watching videos, TL-DW.ai
           leverages advanced AI technology to distill essential information from
-          long YouTube videos into quick, digestible insights. Whether you're
-          looking to grasp the main points of educational content, stay updated
-          with industry news, or simply save time on your favorite shows,
-          TL-DW.ai makes it effortless. <br />
+          long YouTube videos into quick, digestible insights. Whether
+          you&apos;re looking to grasp the main points of educational content,
+          stay updated with industry news, or simply save time on your favorite
+          shows, TL-DW.ai makes it effortless. <br />
           <br />
           Simply paste the video link, and let TL-DW.ai do the rest. In seconds,
-          you'll have a comprehensive summary that allows you to stay ahead,
-          save time, and make the most of your viewing experience. Say goodbye
-          to "too long; didn't watch" and hello to efficient learning and
-          entertainment with TL-DW.ai.
+          you&apos;ll have a comprehensive summary that allows you to stay
+          ahead, save time, and make the most of your viewing experience. Say
+          goodbye to "too long; didn&apos;t watch" and hello to efficient
+          learning and entertainment with TL-DW.ai.
         </p>
       </div>
 
