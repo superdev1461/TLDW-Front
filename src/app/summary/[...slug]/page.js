@@ -5,7 +5,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 export async function generateStaticParams() {
   try {
     const response = await fetch(
-      "https://tldw-back-m58hn83m2-tldw-8f8883bb.vercel.app/user/getalltitle",
+      "https://youtube-summarizer-backend-ak18.vercel.app/",
       {
         method: "POST",
         headers: {
@@ -34,7 +34,7 @@ export async function generateStaticParams() {
 async function getData(url) {
   try {
     const response = await fetch(
-      "https://tldw-back-m58hn83m2-tldw-8f8883bb.vercel.app/user/getsummarydata",
+      "https://youtube-summarizer-backend-ak18.vercel.app/",
       {
         method: "POST",
         headers: {
