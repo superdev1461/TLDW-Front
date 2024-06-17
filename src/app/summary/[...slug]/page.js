@@ -80,7 +80,8 @@ export default async function Summary({ params }) {
         dangerouslySetInnerHTML={{
           __html: data?.data?.data?.content
             .replace(/【7†source】/g, "")
-            .replace(/【9†source】/g, ""),
+            .replace(/【9†source】/g, "")
+            .replace(/\【\d+†source\】/, ""),
         }}>
         {}
       </div>
