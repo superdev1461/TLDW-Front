@@ -78,7 +78,9 @@ export default async function Summary({ params }) {
       <div
         className="mt-4 ml-4 "
         dangerouslySetInnerHTML={{
-          __html: data?.data?.data?.content.replace(/【7†source】/g, ""),
+          __html: data?.data?.data?.content
+            .replace(/【7†source】/g, "")
+            .replace(/【9†source】/g, ""),
         }}>
         {}
       </div>
