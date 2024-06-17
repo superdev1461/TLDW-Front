@@ -11,8 +11,8 @@ function About() {
           <p className="mt-6">
             Welcome to TL-DW.ai. <br />
             <br />
-            This website <a className="text-blue-500">TL-DW.ai</a> &nbsp;
-            {"(“Our Site”)"} uses Cookies and similar technologies to
+            This website <a className="text-blue-500">TL-DW.ai</a>&nbsp;
+            {'("Our Site")'} uses Cookies and similar technologies to
             distinguish you from other users. By using Cookies, we can provide
             you with a better experience and to improve Our Site by better
             understanding how you use it. Please read this Cookie Policy
@@ -33,7 +33,7 @@ function About() {
             cookies, the purpose of their use, and the reasons for their
             storage. However, we will also provide information on how to prevent
             the storage of these cookies, though this may cause some parts of
-            the site’s functionality to degrade or not work properly.
+            the site's functionality to degrade or not work properly.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ function About() {
           <p className="text-[30px]">Disabling Cookies</p>
           <p className="">
             Preventing the setting of cookies is possible by adjusting the
-            settings on your browser. Consult your browser’s Help section for
+            settings on your browser. Consult your browser's Help section for
             instructions on how to do this. We utilized the Cookie Policy
             Generator to draft our own document. Please note that disabling
             cookies will impact the functionality of this website as well as
@@ -73,7 +73,7 @@ function About() {
             <ol className="list-disc my-4">
               <li>
                 Occasionally, we experiment with new features and make slight
-                modifications to the site’s presentation. During these testing
+                modifications to the site's presentation. During these testing
                 phases, cookies may be employed to guarantee a consistent
                 experience for users and to gather information on which
                 optimizations are most favored.
@@ -97,8 +97,8 @@ function About() {
             <p className="text-[30px]">More Information</p>
             <p className="">
               Hopefully, that has clarified things for you, and as was
-              previously mentioned if there is something that you aren’t sure
-              whether you need or not it’s usually safer to leave cookies
+              previously mentioned if there is something that you aren't sure
+              whether you need or not it's usually safer to leave cookies
               enabled in case it does interact with one of the features you use
               on our site. However, if you are still looking for more
               information then you can contact us at{" "}
