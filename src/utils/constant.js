@@ -1,1 +1,1 @@
-export const BackendBaseURL = `https://youtube-summarizer-backend-ak18.vercel.app/`;
+export const BackendBaseURL = `https://tldw-126832972135.herokuapp.com/`;

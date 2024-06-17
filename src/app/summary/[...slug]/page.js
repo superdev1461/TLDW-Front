@@ -5,7 +5,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 export async function generateStaticParams() {
   try {
     const response = await fetch(
-      "https://youtube-summarizer-backend-ak18.vercel.app/",
+      "https://tldw-126832972135.herokuapp.com/user/getalltitle",
       {
         method: "POST",
         headers: {
@@ -33,8 +33,9 @@ export async function generateStaticParams() {
 
 async function getData(url) {
   try {
+    console.log("print");
     const response = await fetch(
-      "https://youtube-summarizer-backend-ak18.vercel.app/",
+      "https://tldw-126832972135.herokuapp.com/user/getsummarydata",
       {
         method: "POST",
         headers: {
@@ -43,8 +44,9 @@ async function getData(url) {
         body: JSON.stringify({ email: "123@123.com", url: url }),
       }
     );
+    console.log(response.data);
     const data = await response.json();
-    console.log(data);
+
     return data;
   } catch (error) {
     console.error("Error fetching data:", error);
